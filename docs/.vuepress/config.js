@@ -4,10 +4,27 @@ module.exports = {
     description: '一款简洁而优雅的 vuepress 博客 & 文档 主题',
 
     themeConfig: {
-        sidebar: 'auto',
+        smoothScroll: true,
+        sidebar: [
+            {
+                title: 'Group 1',   // 必要的
+                path: '/blog/index',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                collapsable: false, // 可选的, 默认值是 true,
+                sidebarDepth: 1,    // 可选的, 默认值是 1
+                children: [
+                    '/'
+                ]
+            },
+            {
+                title: 'Group 2',
+                children: [ /* ... */ ],
+                initialOpenGroupIndex: -1 // 可选的, 默认值是 0
+            }
+        ],
+        subSidebar:'auto',
         style: '@vuepress-reco/style-default',
         logo: '/logo.png',
-        author: 'reco_luan',
+        author: '刘域',
         docsRepo: 'https://github.com/vuepress-reco/vuepress-theme-reco-next',
         docsBranch: 'main',
         docsDir: 'example',
