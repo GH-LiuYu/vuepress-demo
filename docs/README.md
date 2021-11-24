@@ -1,6 +1,5 @@
 ---
 home: true
-showSponsor: true
 heroImage: /logo.png
 heroImageStyle: {
   maxWidth: '200px',
@@ -9,7 +8,7 @@ heroImageStyle: {
   margin: '0 auto 2rem',
   borderRadius: '1rem',
 }
-heroText: vuepress-theme-reco-next
+heroText: vuepress-theme-reco-next1314
 tagline: 一款简洁而优雅的 vuepress 博客 & 文档 主题。
 isShowTitleInHome: true
 actionText: About
