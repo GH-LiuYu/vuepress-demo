@@ -12,8 +12,8 @@ module.exports = {
                     path: '/documents/doc-git/a',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
                 },
                 {
-                    title: '命令',   // 必要的
-                    path: '/documents/doc-git/命令',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                    title: 'c',   // 必要的
+                    path: '/documents/doc-git/c',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
                 },
                 {
                     title: 'b',   // 必要的

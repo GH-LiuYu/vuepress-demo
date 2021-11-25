@@ -4,10 +4,12 @@ module.exports = [
   { text: '分类',
     icon: 'reco-category',
     items: [
-      { text: '文档', link: '/documents/index',icon: 'reco-document' },
-      { text: '博客', link: '/blog/index' ,icon: 'reco-blog'}
+      { text: 'git', link: '/category/git',icon: 'reco-document' },
+      { text: '博客', link: '/category/blog' ,icon: 'reco-blog'}
     ]
   },
-  { text: '标签', link: '/tags/tag1/1/',icon: 'reco-tag' },
-  { text: 'GitHub', link: 'https://github.com/GH-LiuYu',icon: 'reco-github' },
+  { text: '标签', link: '/tags/',icon: 'reco-tag' },
+  { text: '时间线', link: '/timeline/', icon: 'reco-date' },
+  { text: '工具', link: '/tool',icon: 'reco-eye' },
+  { link: 'https://github.com/GH-LiuYu',icon: 'reco-github' },
 ]
