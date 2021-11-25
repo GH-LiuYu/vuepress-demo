@@ -7,6 +7,9 @@ module.exports = {
     description: '穷人靠变异,富人靠科技',
     head: head,
     themeConfig: {
+        nav:nav,//导航栏
+        sidebar: sidebar,//侧边栏
+        subSidebar:'auto',//生成打开页面的右侧栏
         type: 'blog',//开启博客模式
         //添加博客配置
         blogConfig: {
@@ -23,9 +26,6 @@ module.exports = {
                 { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' }
             ]
         },
-        nav:nav,//导航栏
-        sidebar: sidebar,//侧边栏
-        subSidebar:'auto',//生成打开页面的右侧栏
 
         //底部栏备案信息*
         record: 'ICP 备案文案',
@@ -41,7 +41,7 @@ module.exports = {
 
         authorAvatar: '/bg.jpg',//头像
 
-        logo: '/logo.png',//左侧logo
+        logo: '/bg3.jpg',//左侧logo
 
         //友好链接
         friendLink: [
@@ -141,7 +141,5 @@ module.exports = {
                 zIndex: 999999999           // z-index property of the canvas, default: 999999999
             }
         ],
-
-
     ],
 }

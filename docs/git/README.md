@@ -1,9 +1,10 @@
 ---
-isTimeLine: true
-sidebar: false
-isComment: false
+title: git命令
+date: 2017-10-10
+categories:
+ - git
+tags:
+ - git
 ---
 
-## Time Line
-
-'# git66'
+'# Hello git343'
