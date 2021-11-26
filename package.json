@@ -12,17 +12,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^6.0.1",
-    "sass-loader": "^12.3.0",
     "vuepress": "^1.8.2",
     "vuepress-theme-reco": "^1.6.6"
   },
   "dependencies": {
-    "@vuepress-reco/style-default": "^2.0.1-alpha.1",
     "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
     "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.0",
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
-    "vuepress-plugin-cursor-effects": "^1.0.2",
-    "vuepress-plugin-sponsor": "^1.0.0"
+    "vuepress-plugin-cursor-effects": "^1.0.2"
   }
 }

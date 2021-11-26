@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件 命令行同package.json中script命令一致
-npm run docs:build
+npm run build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
