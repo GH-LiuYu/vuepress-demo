@@ -8,7 +8,7 @@ module.exports = {
     head: head,
     themeConfig: {
         nav:nav,//导航栏
-        // sidebar: sidebar,//侧边栏
+        sidebar: sidebar,//侧边栏
         subSidebar:'auto',//生成打开页面的右侧栏
         type: 'blog',//开启博客模式
         //添加博客配置
@@ -135,6 +135,6 @@ module.exports = {
                 zIndex: 999999999           // z-index property of the canvas, default: 999999999
             }
         ],
-        ['@vuepress-reco/vuepress-plugin-pagation',{}]
+        // ['@vuepress-reco/vuepress-plugin-pagation',{}]
     ],
 }

@@ -4,32 +4,32 @@
  */
 const fs = require('fs')
 const path = require('path')
-
 function getDocPath(title,collapsable,relateivePath) {
-    const absolutePath = path.join(__dirname, '../' + relateivePath)
+    const absolutePath = path.join(__dirname, '../docs/' + relateivePath)
     const files = fs.readdirSync(absolutePath)
     const components = []
     // 排除检查的文件
     var excludes = ['.DS_Store']
     let arr = files.sort(function(a, b) {
-        // 截取'.'之前的数字进行排序 例如 1.vue 2.vue 3.vue
         return a.split('.')[0] - b.split('.')[0];
     });
     arr.forEach(function (item) {
         if (excludes.indexOf(item) < 0) {
             let stat = fs.lstatSync(absolutePath + '/' + item)
             if (item == 'README.md') {
-                components.unshift(relateivePath + '/')
+                components.unshift(relateivePath)
             } else if (!stat.isDirectory()) {
-                components.push(relateivePath + '/' + item)
+                let res = item.replace('.md', '');
+                components.push(relateivePath + res)
             } else {
-                console.log(relateivePath + '/' + item)
-                getDocPath(relateivePath + '/' + item)
+                let res = item.replace('.md', '');
+                getDocPath(relateivePath + res)
             }
         }
     })
     let frame = {
         title:title,
+        sidebarDepth: 2,
         collapsable:collapsable,
         children:components
     }

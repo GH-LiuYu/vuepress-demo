@@ -4,8 +4,9 @@ module.exports = [
   { text: '分类',
     icon: 'reco-category',
     items: [
-      { text: 'git', link: '/categories/git/',icon: 'reco-document' },
-      { text: '博客', link: '/categories/blog/' ,icon: 'reco-blog'}
+      { text: 'git', link: '/documents/git/',icon: 'reco-document' },
+      { text: '文档', link: '/categories/git/',icon: 'reco-document' },
+      { text: '博客', link: '/categories/tool/' ,icon: 'reco-blog'}
     ]
   },
   { text: '标签', link: '/tag/',icon: 'reco-tag' },
