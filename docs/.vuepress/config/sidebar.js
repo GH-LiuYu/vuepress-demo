@@ -1,9 +1,35 @@
 const getDocPath = require('./getDocPath')
 module.exports = {
-    // getDocPath('git',true,'./../git'),
-    // getDocPath('blog',true,'./../blog'),
-    './../../documents/git/': [
-        getDocPath('vuedoc',true,'./../../documents/git/vuedoc/'),
-        getDocPath('test',true,'./../../documents/git/test/'),
+    // '/document/study/': [
+    //     {
+    //         title:'vue',
+    //         sidebarDepth: 2,
+    //         collapsable:true,
+    //         children: ['/document/study/vue/vue1','/document/study/vue/vue2','/document/study/vue/']
+    //     },{
+    //         title:'js',
+    //         sidebarDepth: 2,
+    //         collapsable:true,
+    //         children: ['/document/study/js/js1','/document/study/js/js2','/document/study/js/']
+    //     }
+    // ],
+    // '/document/css/': [
+    //     {
+    //         title:'css',
+    //         sidebarDepth: 2,
+    //         collapsable:true,
+    //         children: ['/document/css/css1','/document/css/css2']
+    //     }
+    // ],
+
+
+    '/document/study/': [
+        getDocPath('vue',true,'/document/study/vue/'),
+        getDocPath('js',true,'/document/study/js/'),
     ],
+    '/document/css/': [
+        getDocPath('css',true,'/document/css/'),
+    ],
+
+
 }

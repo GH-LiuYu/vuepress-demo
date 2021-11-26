@@ -5,7 +5,7 @@
 const fs = require('fs')
 const path = require('path')
 function getDocPath(title,collapsable,relateivePath) {
-    const absolutePath = path.join(__dirname, '../docs/' + relateivePath)
+    const absolutePath = path.join(__dirname, '../../' + relateivePath)
     const files = fs.readdirSync(absolutePath)
     const components = []
     // 排除检查的文件

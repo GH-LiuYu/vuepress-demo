@@ -39,9 +39,9 @@ module.exports = {
 
         huawei: true,//华为文案
 
-        authorAvatar: '/bg.jpg',//头像
+        authorAvatar: '/logo.jpg',//头像
 
-        logo: '/bg3.jpg',//左侧logo
+        logo: '/logo.jpg',//左侧logo
 
         //友好链接
         friendLink: [
