@@ -12,6 +12,7 @@ bgImage: /bg2.jpg
 bgImageStyle: {
   height: '1000px'
 }
+sidebar: false
 heroText: Change your life against the sky
 tagline: 欢迎来到我的博客
 isShowTitleInHome: false
