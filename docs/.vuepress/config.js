@@ -33,9 +33,9 @@ module.exports = {
         cyberSecurityRecord: '公安部备案文案',
         cyberSecurityLink: '公安部备案指向链接',
         // 项目开始时间，只填写年份
-        startYear: '2017',
+        startYear: '2021',
 
-        author: '小火汁',//作者姓名
+        author: 'LIUYU',//作者姓名
 
         huawei: true,//华为文案
 
@@ -74,7 +74,7 @@ module.exports = {
         [
             '@vuepress-reco/vuepress-plugin-kan-ban-niang',{
             theme: [
-                'miku', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'blackCat', 'z16'
+                'whiteCat', 'miku', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'blackCat', 'z16'
             ],
             clean: false,
             messages: {

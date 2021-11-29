@@ -7,11 +7,10 @@ categories:
 tags: 
   - git
 author: liu
+sticky : 2
 ---
-
-
-# Git使用手册
-
+<!-- more -->
+# Git使用手册 <Badge text="beta" type="warning"/> <Badge text="默认主题"/> 
 ## 安装
 
 官网下载：<https://git-scm.com/downloads> 下载完成后使用默认进行安装。
@@ -26,7 +25,7 @@ git config --global user.email "email@example.com"
 
 因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。
 
-<!-- more -->
+
 
 ## 创建版本库（仓库）
 

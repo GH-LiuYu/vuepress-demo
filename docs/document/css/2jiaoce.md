@@ -7,6 +7,7 @@ categories:
 tags: 
   - markdown
 author: ly
+sticky : 1
 ---
 # Markdown使用教程
 
