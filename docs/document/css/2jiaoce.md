@@ -1,6 +1,7 @@
 ---
 title: Markdown使用教程
 date: 2019-12-25 14:27:01
+cover: https://pan.zealsay.com/mweb/blog/WechatIMG11.png 
 categories: 
   - 技术
   - 技术文档
