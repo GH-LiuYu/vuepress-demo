@@ -27,9 +27,9 @@
   export default {
     components: {PageInfo},
     props: ['item', 'currentPage', 'currentTag']
+
   }
 </script>
-
 <style lang="stylus" scoped>
   @require '../styles/mode.styl'
   .abstract-item

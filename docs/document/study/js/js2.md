@@ -1,7 +1,6 @@
 ---
 title: 阿道夫
 date: 2019-12-22 14:27:01
-cover: https://pan.zealsay.com/mweb/blog/WechatIMG11.png 
 categories: 
   - 技术
   - 技术文档
@@ -9,8 +8,6 @@ tags:
   - git
 author: liu
 ---
-
-
 ## 创建版本库（仓库）
 
 ```bash

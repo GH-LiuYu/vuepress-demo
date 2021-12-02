@@ -8,6 +8,7 @@ tags:
   - git
 author: liu
 sticky : 2
+keys: 1
 ---
 # Git使用手册 <Badge text="beta" type="warning"/> <Badge text="默认主题"/> 
 ## 安装
