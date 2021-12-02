@@ -8,9 +8,9 @@ tags:
   - git
 author: liu
 sticky : 2
+keys: 1
+cover: https://pan.zealsay.com/mweb/blog/WechatIMG11.png 
 ---
-<img src=https://pan.zealsay.com/mweb/blog/WechatIMG11.png style="float: left;width: 50%;height: 50%" >
-<!-- more -->
 # Git使用手册 <Badge text="beta" type="warning"/> <Badge text="默认主题"/> 
 ## 安装
 

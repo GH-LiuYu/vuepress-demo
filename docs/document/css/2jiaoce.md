@@ -1,7 +1,6 @@
 ---
 title: Markdown使用教程
 date: 2019-12-25 14:27:01
-cover: https://pan.zealsay.com/mweb/blog/WechatIMG11.png 
 categories: 
   - 技术
   - 技术文档
@@ -9,8 +8,8 @@ tags:
   - markdown
 author: ly
 sticky : 1
+cover: https://pan.zealsay.com/mweb/blog/WechatIMG11.png 
 ---
-# Markdown使用教程
 
 ## 一、Markdown
 
@@ -19,9 +18,6 @@ sticky : 1
 ![logo](https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png)
 
 `Markdown` 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
-
-<!-- more -->
-
 ###  应用
 
 当前许多网站都广泛使用 `Markdown` 来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、知乎等

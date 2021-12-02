@@ -2,7 +2,7 @@ const sidebar = require('./config/sidebar.js');
 const nav = require('./config/nav.js');
 const head = require('./config/head.js');
 module.exports = {
-    theme: 'reco',
+    // theme: 'reco',
     title: '一只高星子',
     description: '穷人靠变异,富人靠科技',
     head: head,
@@ -163,13 +163,7 @@ module.exports = {
         [
             //图片放大插件 先安装在配置， npm install @vuepressplugin-medium-zoom --save
             '@vuepressplugin-medium-zoom', {
-            selector: '.page img',
-            delay: 1000,
-            options: {
-                margin: 24,
-                background: 'rgba(25,18,25,0.9)',
-                scrollOffset: 40
-            }
+
         }
         ],
         //npm install vuepress-plugin-sakura -D  樱花插件

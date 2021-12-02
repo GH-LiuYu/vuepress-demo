@@ -5,6 +5,7 @@ categories:
  - git
 tags:
  - git
+cover: https://pan.zealsay.com/mweb/blog/WechatIMG11.png 
 ---
 
 '# Hello git343'
