@@ -10,17 +10,7 @@ tags:
 author: ly
 sticky : 1
 ---
-# Markdown使用教程
 
-## 一、Markdown
-
-### 简介
-
-![logo](https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png)
-
-`Markdown` 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
-
-<!-- more -->
 
 ###  应用
 

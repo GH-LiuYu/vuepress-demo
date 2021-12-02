@@ -9,25 +9,6 @@ tags:
 author: liu
 ---
 
-
-# Git使用手册
-
-## 安装
-
-官网下载：<https://git-scm.com/downloads> 下载完成后使用默认进行安装。
-
-安装完成后，在开始菜单里找到 `Git` -> `Git Bash`，蹦出一个类似命令行窗口的东西，就说明Git安装成功！
-还需要最后一步设置，在命令行输入：
-
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "email@example.com"
-```
-
-因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。
-
-<!-- more -->
-
 ## 创建版本库（仓库）
 
 ```bash
@@ -43,8 +24,6 @@ pwd
 # 把当前目录初始化成Git仓库
 git init
 ```
-
-> 也不一定必须在空目录下创建Git仓库，选择一个已经有东西的目录直接`git init`也是可以的。
 
 
 

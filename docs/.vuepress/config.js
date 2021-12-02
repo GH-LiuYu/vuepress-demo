@@ -2,13 +2,13 @@ const sidebar = require('./config/sidebar.js');
 const nav = require('./config/nav.js');
 const head = require('./config/head.js');
 module.exports = {
-    theme: 'reco',
+    // theme: 'reco',
     title: '一只高星子',
     description: '穷人靠变异,富人靠科技',
     head: head,
     themeConfig: {
         nav:nav,//导航栏
-        sidebar: sidebar,//生成左侧边栏 --如下面插件已使用 此处可以不用
+        // sidebar: sidebar,//生成左侧边栏 --如下面插件已使用 此处可以不用
         subSidebar:'auto',//生成打开页面的右侧栏
         type: 'blog',//开启博客模式
         //添加博客配置
@@ -26,7 +26,15 @@ module.exports = {
                 { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' }
             ]
         },
-
+        covers: [
+            'https://pan.zealsay.com/zealsay/cover/7.jpg',
+            'https://pan.zealsay.com/zealsay/cover/1.jpg',
+            'https://pan.zealsay.com/zealsay/cover/2.jpg',
+            'https://pan.zealsay.com/zealsay/cover/3.jpg',
+            'https://pan.zealsay.com/zealsay/cover/4.jpg',
+            'https://pan.zealsay.com/zealsay/cover/5.jpg',
+            'https://pan.zealsay.com/zealsay/cover/6.jpg'
+        ],
         //底部栏备案信息*
         record: 'ICP 备案文案',
         recordLink: 'ICP 备案指向链接',
@@ -251,10 +259,10 @@ module.exports = {
             }
         ],
         //自动生成左侧栏,不能生成分组侧边栏，只能生成单组下多篇文章的侧边栏
-        // ["vuepress-plugin-auto-sidebar", {
-        //
-        //
-        // }]
+        ["vuepress-plugin-auto-sidebar", {
+
+
+        }]
         // ['@vuepress-reco/vuepress-plugin-pagation',{}]
     ],
 }

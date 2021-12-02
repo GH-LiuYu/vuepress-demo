@@ -2,10 +2,12 @@
 title: Git使用手册
 date: 2019-12-25 14:27:01
 categories: 
-  - 技术
+  - 网址
   - 技术文档
+  - 收藏
 tags: 
-  - git
+  - 技术文档
+  - 收藏
 author: liu
 sticky : 2
 ---
