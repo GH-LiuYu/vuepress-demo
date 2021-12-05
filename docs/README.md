@@ -8,12 +8,12 @@ heroImageStyle: {
   background: '#fff',
   borderRadius: '1rem',
 }
-bgImage: /bg2.jpg
+bgImage: /11.jpg
 bgImageStyle: {
   height: '1000px'
 }
-heroText: Change your life against the sky
-tagline: 欢迎来到我的博客
+heroText: Stay Hungry Stay Foolish
+tagline: Welcome To LY's Blog
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/about

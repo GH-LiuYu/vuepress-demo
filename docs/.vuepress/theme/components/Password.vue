@@ -61,7 +61,7 @@ export default defineComponent({
     const year = new Date().getFullYear()
 
     const key = ref('')
-    const warningText = ref('Konck! Knock!')
+    const warningText = ref('已锁!')
     const recoShowModule = computed(() => instance?.$parent?.recoShowModule)
     const { isPage } = toRefs(props)
 
@@ -84,11 +84,11 @@ export default defineComponent({
       sessionStorage.setItem(keyName, keyVal)
       const isKeyTrue = isPage.value ? isHasPageKey() : isHasKey()
       if (!isKeyTrue) {
-        warningText.value = 'Key Error'
+        warningText.value = '授权失败'
         return
       }
 
-      warningText.value = 'Key Success'
+      warningText.value = '授权成功'
 
       const width = document.getElementById('box').style.width
 
@@ -101,11 +101,11 @@ export default defineComponent({
     }
 
     const inputFocus = () => {
-      warningText.value = 'Input Your Key'
+      warningText.value = '输入授权码'
     }
 
     const inputBlur = () => {
-      warningText.value = 'Konck! Knock!'
+      warningText.value = '已加锁'
     }
 
     return { warningText, year, key, recoShowModule, inter, inputFocus, inputBlur }
@@ -147,15 +147,15 @@ export default defineComponent({
     right 0
     margin auto
     display block
-    max-width:700px;
-    height: 100px;
-    background: $accentColor;
+    max-width:380px;
+    height: 50px;
+    background: $pwdColor;
     border-radius: $borderRadius
     padding-left 20px
     box-sizing border-box
     opacity 0.9
     input{
-      width:570px;
+      width:380px;
       height:100%;
       border:none;
       padding:0;
@@ -167,14 +167,14 @@ export default defineComponent({
       bottom:0;
       left 20px
       opacity 0
-      font-size 50px
+      font-size 22px
       &:focus {
         opacity 1
       }
       &:focus~span{
         transform: translateY(-80px);
         color $accentColor
-        font-size 30px
+        font-size 22px
         opacity:0.8;
       }
       &:focus~button{
@@ -187,19 +187,19 @@ export default defineComponent({
       height: 100%;
       display: block;
       position: absolute;
-      line-height:100px;
+      line-height:50px;
       top:0;
       left:20px;
       color: #fff;
       cursor: text;
       transition: 0.5s;
       transform-origin: left top;
-      font-size 30px
+      font-size 22px
     }
     button{
       overflow hidden
       width:0px;
-      height:98px;
+      height:48px;
       border-radius: $borderRadius
       position: absolute;
       border 1px solid $accentColor
@@ -234,8 +234,8 @@ export default defineComponent({
   }
   @media (max-width: $MQMobile) {
     .inputBox{
-      max-width:700px;
-      height: 60px;
+      max-width:380px;
+      height: 50px;
       background: $accentColor;
       border-radius: $borderRadius
       position: absolute;
@@ -258,7 +258,7 @@ export default defineComponent({
         position: absolute;
         bottom:0;
         opacity 0
-        font-size 30px
+        font-size 22px
         &:focus {
           opacity 1
         }
@@ -278,7 +278,7 @@ export default defineComponent({
         height: 100%;
         display: block;
         position: absolute;
-        line-height:60px;
+        line-height:50px;
         top:0;
         left:20px;
         color: #fff;

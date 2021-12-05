@@ -19,5 +19,6 @@ module.exports = [
       { text: '在线markdown', link: 'https://www.zybuluo.com/mdeditor' ,icon: 'reco-blog'}
     ]
   },
-  { link: 'https://github.com/GH-LiuYu',icon: 'reco-github' },
+  { text:'GitHub',link: 'https://github.com/GH-LiuYu',icon: 'reco-github' },
+  { text: '关于我', link: '/document/about/',icon: 'reco-coding' },
 ]

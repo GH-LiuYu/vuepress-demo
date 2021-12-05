@@ -1,5 +1,5 @@
 ---
-title: Git使用手册
+title: Git使用手册44
 date: 2019-12-25 14:27:01
 categories: 
   - 技术
@@ -7,8 +7,8 @@ categories:
 tags: 
   - git
 author: liu
-sticky : 2
-keys: 1
+keys:
+ - '8288019a5f934ef0fd890f521245c80d'
 ---
 # Git使用手册 <Badge text="beta" type="warning"/> <Badge text="默认主题"/> 
 ## 安装
