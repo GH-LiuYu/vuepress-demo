@@ -14,7 +14,7 @@ const modeOptions = {
     '--box-shadow': '0 1px 8px 0 rgba(0, 0, 0, 0.1)',
     '--box-shadow-hover': '0 2px 16px 0 rgba(0, 0, 0, 0.2)',
     '--text-color': '#242424',
-    '--text-color-sub': '#7F7F7F',
+    '--text-color-sub': '#202020',
     '--border-color': '#eaecef',
     '--code-color': 'rgba(27, 31, 35, 0.05)',
     '--mask-color': '#888'
