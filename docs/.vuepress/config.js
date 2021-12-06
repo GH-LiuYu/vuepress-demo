@@ -161,7 +161,7 @@ module.exports = {
             "dynamic-title",
             {
                 showIcon: "/favicon.ico",
-                showText: "还好没有放弃，你又回来了我的宝",
+                showText: "王者归来",
                 hideIcon: "/failure.ico",
                 hideText: "(●—●)呜哇！！,不要走呜呜。",
                 recoverTime: 2000
