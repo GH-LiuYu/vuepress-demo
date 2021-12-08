@@ -41,8 +41,9 @@ npm i vant@3
 
 ### 在项目中引入并使用组件
 
-原始代码
+
 ```
+//原始代码
 import { Button } from 'vant';
 
 // 编译后代码
