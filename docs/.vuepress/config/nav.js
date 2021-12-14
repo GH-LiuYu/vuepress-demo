@@ -4,9 +4,9 @@ module.exports = [
   { text: '分类',
     icon: 'reco-category',
     items: [
-      { text: 'git', link: '/document/study/js/',icon: 'reco-document' },
-      { text: 'css', link: '/document/css/',icon: 'reco-document' },
-      { text: '文档', link: '/categories/git/',icon: 'reco-document' },
+      { text: 'git', link: '/document/git/biji/',icon: 'reco-document' },
+      { text: 'vue', link: '/document/vue/jichu/',icon: 'reco-document' },
+      { text: '文档', link: '/categories/git/biji/',icon: 'reco-document' },
       { text: '博客', link: 'https://gh-liuyu.github.io/' ,icon: 'reco-blog'}
     ]
   },
