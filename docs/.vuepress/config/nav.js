@@ -7,14 +7,14 @@ module.exports = [
       { text: 'git', link: '/document/git/biji/',icon: 'reco-document' },
       { text: 'vue', link: '/document/vue/jichu/',icon: 'reco-document' },
       { text: '文档', link: '/categories/git/biji/',icon: 'reco-document' },
-      { text: '博客', link: 'https://gh-liuyu.github.io/' ,icon: 'reco-blog'}
+      { text: '博客', link: 'https://gh-liuyu.github.io/' ,icon: 'reco-blog'},
+      { text: '股票', link: '/document/gupiao/' ,icon: 'reco-blog'}
     ]
   },
   { text: '标签', link: '/tag/',icon: 'reco-tag' },
   { text: '收藏', link: '/document/mark/',icon: 'reco-eye' },
   { text: '时间线', link: '/timeline/', icon: 'reco-date' },
-  { text: '工具',
-    icon: 'reco-eye',
+  { text: '工具',icon: 'reco-eye',
     items: [
       { text: '在线markdown', link: 'https://www.zybuluo.com/mdeditor' ,icon: 'reco-blog'}
     ]
